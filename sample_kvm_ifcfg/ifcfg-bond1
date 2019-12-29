@@ -1,0 +1,8 @@
+DEVICE=bond1
+TYPE=Ethernet
+ONBOOT=yes
+BOOTPROTO=none
+USERCTL=no
+NM_CONTROLLER=no
+BONDING_OPTS="mode=802.3ad miimon=100 lacp_rate=fast"
+

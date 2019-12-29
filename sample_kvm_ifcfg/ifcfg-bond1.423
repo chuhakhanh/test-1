@@ -1,0 +1,5 @@
+DEVICE=bond1.423
+VLAN=yes
+ONBOOT="yes"
+BOOTPROTO=none
+BRIDGE=br-vlan423
