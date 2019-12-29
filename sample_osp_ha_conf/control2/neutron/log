@@ -1,0 +1,2167 @@
+-- Logs begin at Tue 2019-09-03 11:00:49 +07, end at Mon 2019-09-16 15:06:35 +07. --
+Sep 16 01:18:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:19:04 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:19:04 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:22:04 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:22:04 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:25:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:25:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:28:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:28:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:31:06 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:31:06 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:34:06 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:34:06 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:37:07 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:37:07 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:37:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:40:07 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:40:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:42:14 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:42:36 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 01:43:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:43:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:46:14 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:46:14 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:49:15 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:49:15 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:52:15 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:52:15 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:52:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:55:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:55:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:58:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:58:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 01:58:53 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 02:00:35 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:00:35 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:01:01 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 02:01:01 control2 systemd[1]: Started Session 312 of user root.
+-- Subject: Unit session-312.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-312.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 02:01:01 control2 CROND[14337]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 02:01:01 control2 run-parts(/etc/cron.hourly)[14340]: starting 0anacron
+Sep 16 02:01:01 control2 anacron[14346]: Anacron started on 2019-09-16
+Sep 16 02:01:01 control2 anacron[14346]: Normal exit (0 jobs run)
+Sep 16 02:01:01 control2 run-parts(/etc/cron.hourly)[14348]: finished 0anacron
+Sep 16 02:01:01 control2 systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Sep 16 02:02:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:02:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:05:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:05:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:05:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:08:12 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:08:54 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:10:30 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:11:54 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:11:54 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:14:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:14:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:17:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:17:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:19:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:20:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:22:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:23:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:23:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:26:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:26:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:29:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:29:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:30:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:32:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:33:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:35:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:36:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:36:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:39:47 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:39:47 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:42:50 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:42:50 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:44:08 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:45:51 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:47:09 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:48:51 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:50:09 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:50:09 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:53:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:53:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:55:34 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:55:34 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:58:35 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 02:58:35 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:01:01 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 03:01:01 control2 systemd[1]: Started Session 313 of user root.
+-- Subject: Unit session-313.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-313.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 03:01:01 control2 CROND[20178]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 03:01:01 control2 run-parts(/etc/cron.hourly)[20181]: starting 0anacron
+Sep 16 03:01:01 control2 anacron[20187]: Anacron started on 2019-09-16
+Sep 16 03:01:01 control2 run-parts(/etc/cron.hourly)[20189]: finished 0anacron
+Sep 16 03:01:01 control2 anacron[20187]: Will run job `cron.daily' in 21 min.
+Sep 16 03:01:01 control2 anacron[20187]: Jobs will be executed sequentially
+Sep 16 03:01:35 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:01:35 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:03:42 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:04:36 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:06:42 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:07:36 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:07:36 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:10:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:10:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:13:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:13:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:16:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:16:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:19:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:19:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:20:08 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:22:01 control2 anacron[20187]: Job `cron.daily' started
+Sep 16 03:22:01 control2 run-parts(/etc/cron.daily)[22198]: starting logrotate
+Sep 16 03:22:03 control2 run-parts(/etc/cron.daily)[22209]: finished logrotate
+Sep 16 03:22:03 control2 run-parts(/etc/cron.daily)[22211]: starting man-db.cron
+Sep 16 03:22:03 control2 run-parts(/etc/cron.daily)[22220]: finished man-db.cron
+Sep 16 03:22:03 control2 anacron[20187]: Job `cron.daily' terminated
+Sep 16 03:22:03 control2 anacron[20187]: Normal exit (1 job run)
+Sep 16 03:22:03 control2 systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Sep 16 03:22:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:23:09 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:25:10 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 03:25:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:26:09 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:26:09 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:29:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:29:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:30:17 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 03:32:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:32:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:35:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:35:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:38:06 control2 chronyd[1077]: Received KoD RATE from 125.234.20.170
+Sep 16 03:38:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:38:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:40:17 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:41:12 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:43:18 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:44:12 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:44:12 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:47:13 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:47:13 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:50:13 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:50:13 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:51:01 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:53:13 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:54:02 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:54:32 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:57:02 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 03:57:02 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:00:03 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:00:03 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:01:01 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 04:01:01 control2 systemd[1]: Started Session 314 of user root.
+-- Subject: Unit session-314.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-314.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 04:01:01 control2 CROND[25942]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 04:01:01 control2 run-parts(/etc/cron.hourly)[25945]: starting 0anacron
+Sep 16 04:01:01 control2 run-parts(/etc/cron.hourly)[25951]: finished 0anacron
+Sep 16 04:01:01 control2 systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Sep 16 04:03:03 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:03:03 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:06:04 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:06:04 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:06:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:09:04 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:09:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:12:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:12:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:15:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:15:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:18:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:18:05 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:21:06 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:21:06 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:22:24 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:24:06 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:25:25 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:27:07 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:27:07 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:29:49 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:29:49 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:31:44 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:31:44 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:34:44 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:34:44 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:37:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:37:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:39:13 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 04:39:51 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:40:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:42:15 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:43:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:45:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:45:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:48:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:48:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:51:17 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:51:17 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:54:17 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:54:17 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:55:51 control2 chronyd[1077]: Received KoD RATE from 125.234.20.170
+Sep 16 04:56:00 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:57:18 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 04:58:00 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:00:18 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:00:18 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:01:01 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 05:01:01 control2 systemd[1]: Started Session 315 of user root.
+-- Subject: Unit session-315.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-315.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 05:01:01 control2 CROND[31682]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 05:01:01 control2 run-parts(/etc/cron.hourly)[31685]: starting 0anacron
+Sep 16 05:01:01 control2 run-parts(/etc/cron.hourly)[31691]: finished 0anacron
+Sep 16 05:01:01 control2 systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Sep 16 05:03:19 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:03:19 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:06:19 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:06:19 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:09:20 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:09:20 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:12:20 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:12:20 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:15:21 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:15:21 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:18:21 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:18:21 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:21:22 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:21:22 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:24:22 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:24:22 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:27:23 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:27:23 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:30:23 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:30:23 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:30:47 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:30:51 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 05:33:23 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:33:48 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:36:24 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:36:24 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:39:24 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:39:24 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:39:36 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:39:36 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:42:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:42:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:42:43 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 05:45:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:45:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:48:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:48:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:51:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:51:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:54:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:54:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:57:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:57:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 05:58:40 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:00:40 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:01:01 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 06:01:01 control2 systemd[1]: Started Session 316 of user root.
+-- Subject: Unit session-316.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-316.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 06:01:01 control2 CROND[5225]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 06:01:01 control2 run-parts(/etc/cron.hourly)[5228]: starting 0anacron
+Sep 16 06:01:01 control2 run-parts(/etc/cron.hourly)[5234]: finished 0anacron
+Sep 16 06:01:01 control2 systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Sep 16 06:01:40 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:03:43 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:04:43 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:04:43 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:07:44 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:07:44 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:10:44 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:10:44 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:13:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:13:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:16:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:16:45 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:19:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:19:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:22:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:22:46 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:25:47 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:25:47 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:26:57 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 06:28:47 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:28:47 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:31:48 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:31:48 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:34:48 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:34:48 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:37:49 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:37:49 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:40:49 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:40:49 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:43:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:43:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:46:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:46:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:49:54 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:49:54 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:51:40 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 06:52:54 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:52:54 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:55:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:55:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:58:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 06:58:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:01:01 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 07:01:01 control2 systemd[1]: Started Session 317 of user root.
+-- Subject: Unit session-317.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-317.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 07:01:01 control2 CROND[10940]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 07:01:01 control2 run-parts(/etc/cron.hourly)[10943]: starting 0anacron
+Sep 16 07:01:01 control2 run-parts(/etc/cron.hourly)[10949]: finished 0anacron
+Sep 16 07:01:01 control2 systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Sep 16 07:01:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:01:55 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:04:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:04:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:07:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:07:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:10:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:10:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:13:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:13:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:16:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:16:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:19:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:19:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:22:59 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:22:59 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:25:59 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:25:59 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:29:00 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:29:00 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:32:00 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:32:00 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:33:43 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:35:01 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:36:43 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:38:01 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:38:01 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:39:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:39:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:42:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:42:56 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:45:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:45:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:48:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:48:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:49:09 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:51:57 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:52:09 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:54:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:55:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:55:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:58:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 07:58:10 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:01:01 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 08:01:01 control2 systemd[1]: Started Session 318 of user root.
+-- Subject: Unit session-318.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-318.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 08:01:01 control2 CROND[16744]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 08:01:02 control2 run-parts(/etc/cron.hourly)[16747]: starting 0anacron
+Sep 16 08:01:02 control2 run-parts(/etc/cron.hourly)[16753]: finished 0anacron
+Sep 16 08:01:02 control2 systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Sep 16 08:01:05 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 08:01:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:01:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:04:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:04:11 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:05:12 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:07:12 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:08:15 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:10:15 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:11:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:11:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:14:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:14:16 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:14:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:14:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:17:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:17:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:20:47 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:20:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:23:48 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:23:54 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:26:51 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:26:51 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:29:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:29:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:32:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:32:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:35:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:35:52 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:35:58 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:38:53 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:38:59 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:41:29 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:41:59 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:41:59 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:45:00 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:45:00 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:47:36 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:47:36 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:50:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:50:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:53:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:53:37 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:53:51 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 08:56:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:56:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:59:02 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 08:59:38 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 09:01:01 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 09:01:01 control2 systemd[1]: Started Session 319 of user root.
+-- Subject: Unit session-319.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-319.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 09:01:01 control2 CROND[22540]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 09:01:01 control2 run-parts(/etc/cron.hourly)[22543]: starting 0anacron
+Sep 16 09:01:01 control2 run-parts(/etc/cron.hourly)[22549]: finished 0anacron
+Sep 16 09:01:01 control2 systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Sep 16 09:02:03 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 09:02:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 09:02:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 09:05:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 09:05:39 control2 kernel: nfs: server network2 not responding, timed out
+Sep 16 09:06:15 control2 chronyd[1077]: Received KoD RATE from 125.234.20.170
+Sep 16 09:09:25 control2 sshd[23338]: Accepted password for root from 10.3.0.23 port 57328 ssh2
+Sep 16 09:09:25 control2 systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 09:09:25 control2 systemd-logind[1039]: New session 320 of user root.
+-- Subject: A new session 320 has been created for user root
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 320 has been created for the user root.
+-- 
+-- The leading process of the session is 23338.
+Sep 16 09:09:25 control2 systemd[1]: Started Session 320 of user root.
+-- Subject: Unit session-320.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-320.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 09:09:25 control2 sshd[23338]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Sep 16 09:15:24 control2 sshd[23953]: Accepted password for root from 10.4.0.60 port 53086 ssh2
+Sep 16 09:15:24 control2 systemd-logind[1039]: New session 321 of user root.
+-- Subject: A new session 321 has been created for user root
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 321 has been created for the user root.
+-- 
+-- The leading process of the session is 23953.
+Sep 16 09:15:24 control2 systemd[1]: Started Session 321 of user root.
+-- Subject: Unit session-321.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-321.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 09:15:24 control2 sshd[23953]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: declaring 84b9b1cd at tcp://10.1.17.103:4567 stable
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: forgetting 1cf8f595 (tcp://10.1.17.101:4567)
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: Node 33acab0e state prim
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: view(view_id(PRIM,33acab0e,20) memb {
+Sep 16 09:17:23 control2 mysqld[19168]: 33acab0e,0
+Sep 16 09:17:23 control2 mysqld[19168]: 84b9b1cd,0
+Sep 16 09:17:23 control2 mysqld[19168]: } joined {
+Sep 16 09:17:23 control2 mysqld[19168]: } left {
+Sep 16 09:17:23 control2 mysqld[19168]: } partitioned {
+Sep 16 09:17:23 control2 mysqld[19168]: 1cf8f595,0
+Sep 16 09:17:23 control2 mysqld[19168]: })
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: save pc into disk
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: forgetting 1cf8f595 (tcp://10.1.17.101:4567)
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: New COMPONENT: primary = yes, bootstrap = no, my_idx = 0, memb_num = 2
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: STATE_EXCHANGE: sent state UUID: 1eb3c48f-d828-11e9-9637-6b5a3abb3236
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: STATE EXCHANGE: sent state msg: 1eb3c48f-d828-11e9-9637-6b5a3abb3236
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: STATE EXCHANGE: got state msg: 1eb3c48f-d828-11e9-9637-6b5a3abb3236 from 0 (control2)
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: STATE EXCHANGE: got state msg: 1eb3c48f-d828-11e9-9637-6b5a3abb3236 from 1 (control3)
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: Quorum results:
+Sep 16 09:17:23 control2 mysqld[19168]: version    = 4,
+Sep 16 09:17:23 control2 mysqld[19168]: component  = PRIMARY,
+Sep 16 09:17:23 control2 mysqld[19168]: conf_id    = 7,
+Sep 16 09:17:23 control2 mysqld[19168]: members    = 2/2 (joined/total),
+Sep 16 09:17:23 control2 mysqld[19168]: act_id     = 19379912,
+Sep 16 09:17:23 control2 mysqld[19168]: last_appl. = 19379792,
+Sep 16 09:17:23 control2 mysqld[19168]: protocols  = 0/9/3 (gcs/repl/appl),
+Sep 16 09:17:23 control2 mysqld[19168]: group UUID = 39b9e5d9-8ce7-11e9-a891-5b8f632a53ae
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: Flow-control interval: [23, 23]
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: Trying to continue unpaused monitor
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 2 [Note] WSREP: New cluster view: global state: 39b9e5d9-8ce7-11e9-a891-5b8f632a53ae:19379912, view# 8: Primary, number of nodes: 2, my index: 0, protocol version 3
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 2 [Note] WSREP: wsrep_notify_cmd is not defined, skipping notification.
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 2 [Note] WSREP: REPL Protocols: 9 (4, 2)
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 2 [Note] WSREP: Assign initial position for certification: 19379912, protocol version: 4
+Sep 16 09:17:23 control2 mysqld[19168]: 2019-09-16  9:17:23 0 [Note] WSREP: Service thread queue flushed.
+Sep 16 09:17:29 control2 mysqld[19168]: 2019-09-16  9:17:29 0 [Note] WSREP:  cleaning up 1cf8f595 (tcp://10.1.17.101:4567)
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: (33acab0e, 'tcp://0.0.0.0:4567') turning message relay requesting on, nonlive peers: tcp://10.1.17.101:4567
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: (33acab0e, 'tcp://0.0.0.0:4567') connection established to 22a2b386 tcp://10.1.17.101:4567
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: declaring 22a2b386 at tcp://10.1.17.101:4567 stable
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: declaring 84b9b1cd at tcp://10.1.17.103:4567 stable
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: Node 33acab0e state prim
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: view(view_id(PRIM,22a2b386,21) memb {
+Sep 16 09:17:30 control2 mysqld[19168]: 22a2b386,0
+Sep 16 09:17:30 control2 mysqld[19168]: 33acab0e,0
+Sep 16 09:17:30 control2 mysqld[19168]: 84b9b1cd,0
+Sep 16 09:17:30 control2 mysqld[19168]: } joined {
+Sep 16 09:17:30 control2 mysqld[19168]: } left {
+Sep 16 09:17:30 control2 mysqld[19168]: } partitioned {
+Sep 16 09:17:30 control2 mysqld[19168]: })
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: save pc into disk
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: New COMPONENT: primary = yes, bootstrap = no, my_idx = 1, memb_num = 3
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: STATE EXCHANGE: Waiting for state UUID.
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: STATE EXCHANGE: sent state msg: 22eff7c3-d828-11e9-ac23-3ada2aaed26a
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: STATE EXCHANGE: got state msg: 22eff7c3-d828-11e9-ac23-3ada2aaed26a from 0 (control1)
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: STATE EXCHANGE: got state msg: 22eff7c3-d828-11e9-ac23-3ada2aaed26a from 1 (control2)
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: STATE EXCHANGE: got state msg: 22eff7c3-d828-11e9-ac23-3ada2aaed26a from 2 (control3)
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: Quorum results:
+Sep 16 09:17:30 control2 mysqld[19168]: version    = 4,
+Sep 16 09:17:30 control2 mysqld[19168]: component  = PRIMARY,
+Sep 16 09:17:30 control2 mysqld[19168]: conf_id    = 8,
+Sep 16 09:17:30 control2 mysqld[19168]: members    = 3/3 (joined/total),
+Sep 16 09:17:30 control2 mysqld[19168]: act_id     = 19379912,
+Sep 16 09:17:30 control2 mysqld[19168]: last_appl. = 19379792,
+Sep 16 09:17:30 control2 mysqld[19168]: protocols  = 0/9/3 (gcs/repl/appl),
+Sep 16 09:17:30 control2 mysqld[19168]: group UUID = 39b9e5d9-8ce7-11e9-a891-5b8f632a53ae
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: Flow-control interval: [28, 28]
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: Trying to continue unpaused monitor
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 2 [Note] WSREP: New cluster view: global state: 39b9e5d9-8ce7-11e9-a891-5b8f632a53ae:19379912, view# 9: Primary, number of nodes: 3, my index: 1, protocol version 3
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 2 [Note] WSREP: wsrep_notify_cmd is not defined, skipping notification.
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 2 [Note] WSREP: REPL Protocols: 9 (4, 2)
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 2 [Note] WSREP: Assign initial position for certification: 19379912, protocol version: 4
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: Service thread queue flushed.
+Sep 16 09:17:30 control2 mysqld[19168]: 2019-09-16  9:17:30 0 [Note] WSREP: Member 0.0 (control1) synced with group.
+Sep 16 09:17:33 control2 mysqld[19168]: 2019-09-16  9:17:33 0 [Note] WSREP: (33acab0e, 'tcp://0.0.0.0:4567') turning message relay requesting off
+Sep 16 09:36:05 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 09:37:14 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 10:01:01 control2 systemd[1]: Started Session 322 of user root.
+-- Subject: Unit session-322.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-322.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 10:01:01 control2 CROND[28361]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 10:01:01 control2 run-parts(/etc/cron.hourly)[28364]: starting 0anacron
+Sep 16 10:01:01 control2 run-parts(/etc/cron.hourly)[28370]: finished 0anacron
+Sep 16 10:53:41 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 10:54:28 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 11:01:01 control2 systemd[1]: Started Session 323 of user root.
+-- Subject: Unit session-323.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-323.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 11:01:01 control2 CROND[1764]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 11:01:01 control2 run-parts(/etc/cron.hourly)[1768]: starting 0anacron
+Sep 16 11:01:02 control2 run-parts(/etc/cron.hourly)[1774]: finished 0anacron
+Sep 16 11:16:36 control2 systemd[1]: Starting Cleanup of Temporary Directories...
+-- Subject: Unit systemd-tmpfiles-clean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has begun starting up.
+Sep 16 11:16:36 control2 systemd[1]: Started Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 12:01:01 control2 systemd[1]: Started Session 324 of user root.
+-- Subject: Unit session-324.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-324.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 12:01:01 control2 CROND[7600]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 12:01:01 control2 run-parts(/etc/cron.hourly)[7603]: starting 0anacron
+Sep 16 12:01:01 control2 run-parts(/etc/cron.hourly)[7609]: finished 0anacron
+Sep 16 12:08:00 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 12:11:24 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 12:51:09 control2 chronyd[1077]: Received KoD RATE from 113.161.84.122
+Sep 16 12:58:48 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 13:01:01 control2 systemd[1]: Started Session 325 of user root.
+-- Subject: Unit session-325.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-325.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 13:01:01 control2 CROND[13332]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 13:01:01 control2 run-parts(/etc/cron.hourly)[13335]: starting 0anacron
+Sep 16 13:01:01 control2 run-parts(/etc/cron.hourly)[13341]: finished 0anacron
+Sep 16 13:14:58 control2 polkitd[1040]: Registered Authentication Agent for unix-process:14674:113124982 (system bus name :1.673 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 16 13:14:58 control2 systemd[1]: Stopping OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun shutting down.
+Sep 16 13:15:26 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 13:15:26 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 13:15:45 control2 systemd[1]: Started OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 13:15:45 control2 polkitd[1040]: Unregistered Authentication Agent for unix-process:14674:113124982 (system bus name :1.673, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 16 13:33:22 control2 chronyd[1077]: Received KoD RATE from 125.234.20.170
+Sep 16 13:41:49 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 13:50:21 control2 polkitd[1040]: Registered Authentication Agent for unix-process:18146:113337336 (system bus name :1.674 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 16 13:50:21 control2 systemd[1]: Stopping OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun shutting down.
+Sep 16 13:50:46 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 13:50:46 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 13:50:51 control2 systemd[1]: Started OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 13:50:51 control2 polkitd[1040]: Unregistered Authentication Agent for unix-process:18146:113337336 (system bus name :1.674, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 16 14:01:01 control2 systemd[1]: Started Session 326 of user root.
+-- Subject: Unit session-326.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-326.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 14:01:01 control2 CROND[19239]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 14:01:01 control2 run-parts(/etc/cron.hourly)[19242]: starting 0anacron
+Sep 16 14:01:01 control2 run-parts(/etc/cron.hourly)[19248]: finished 0anacron
+Sep 16 14:11:55 control2 chronyd[1077]: Received KoD RATE from 210.245.100.39
+Sep 16 14:33:42 control2 chronyd[1077]: Received KoD RATE from 125.234.20.170
+Sep 16 15:01:01 control2 systemd[1]: Started Session 327 of user root.
+-- Subject: Unit session-327.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-327.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:01:01 control2 CROND[25010]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 16 15:01:01 control2 run-parts(/etc/cron.hourly)[25013]: starting 0anacron
+Sep 16 15:01:01 control2 run-parts(/etc/cron.hourly)[25019]: finished 0anacron
+Sep 16 15:02:45 control2 polkitd[1040]: Registered Authentication Agent for unix-process:25168:113771656 (system bus name :1.679 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 16 15:02:45 control2 systemd[1]: Stopping OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun shutting down.
+Sep 16 15:03:22 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:03:22 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:03:27 control2 sudo[25279]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:03:27 control2 systemd[1]: Started Session c1 of user root.
+-- Subject: Unit session-c1.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c1.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:03:27 control2 sudo[25279]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:03:28 control2 neutron-server[25261]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f8e30879e50>": No such file or directory
+Sep 16 15:03:28 control2 sudo[25279]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:03:29 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:03:29 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:03:29 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:03:29 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:03:29 control2 polkitd[1040]: Unregistered Authentication Agent for unix-process:25168:113771656 (system bus name :1.679, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 16 15:03:29 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:03:29 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:03:29 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:03:33 control2 sudo[25320]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:03:33 control2 systemd[1]: Started Session c2 of user root.
+-- Subject: Unit session-c2.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c2.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:03:33 control2 sudo[25320]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:03:33 control2 neutron-server[25300]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f33552d26d0>": No such file or directory
+Sep 16 15:03:33 control2 sudo[25320]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:03:33 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:03:33 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:03:33 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:03:33 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:03:34 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:03:34 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:03:34 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:03:38 control2 sudo[25359]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:03:38 control2 systemd[1]: Started Session c3 of user root.
+-- Subject: Unit session-c3.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c3.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:03:38 control2 sudo[25359]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:03:38 control2 neutron-server[25340]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f49bd368e50>": No such file or directory
+Sep 16 15:03:39 control2 sudo[25359]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:03:39 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:03:39 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:03:39 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:03:39 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:03:39 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:03:39 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:03:39 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:03:44 control2 sudo[25400]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:03:44 control2 systemd[1]: Started Session c4 of user root.
+-- Subject: Unit session-c4.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c4.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:03:44 control2 sudo[25400]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:03:44 control2 neutron-server[25380]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fae57ff1e50>": No such file or directory
+Sep 16 15:03:44 control2 sudo[25400]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:03:44 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:03:44 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:03:44 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:03:44 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:03:45 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:03:45 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:03:45 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:03:49 control2 sudo[25440]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:03:49 control2 systemd[1]: Started Session c5 of user root.
+-- Subject: Unit session-c5.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c5.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:03:49 control2 sudo[25440]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:03:49 control2 neutron-server[25421]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7ff2bf829bd0>": No such file or directory
+Sep 16 15:03:49 control2 sudo[25440]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:03:50 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:03:50 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:03:50 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:03:50 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:03:50 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:03:50 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:03:50 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:03:54 control2 sudo[25481]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:03:54 control2 systemd[1]: Started Session c6 of user root.
+-- Subject: Unit session-c6.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c6.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:03:54 control2 sudo[25481]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:03:55 control2 neutron-server[25461]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f409be259d0>": No such file or directory
+Sep 16 15:03:55 control2 sudo[25481]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:03:55 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:03:55 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:03:55 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:03:55 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:03:55 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:03:55 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:03:55 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:00 control2 sudo[25548]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:00 control2 systemd[1]: Started Session c7 of user root.
+-- Subject: Unit session-c7.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c7.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:00 control2 sudo[25548]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:00 control2 neutron-server[25502]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f36b0f3add0>": No such file or directory
+Sep 16 15:04:00 control2 sudo[25548]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:00 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:00 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:00 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:00 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:01 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:01 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:01 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:05 control2 sudo[25588]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:05 control2 sudo[25588]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:05 control2 systemd[1]: Started Session c8 of user root.
+-- Subject: Unit session-c8.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c8.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:06 control2 neutron-server[25570]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f4a01f9fd50>": No such file or directory
+Sep 16 15:04:06 control2 sudo[25588]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:06 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:06 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:06 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:06 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:06 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:06 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:06 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:11 control2 sudo[25630]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:11 control2 systemd[1]: Started Session c9 of user root.
+-- Subject: Unit session-c9.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c9.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:11 control2 sudo[25630]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:11 control2 neutron-server[25609]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fbde28a6f50>": No such file or directory
+Sep 16 15:04:11 control2 sudo[25630]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:11 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:11 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:11 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:11 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:11 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:11 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:11 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:16 control2 sudo[25669]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:16 control2 systemd[1]: Started Session c10 of user root.
+-- Subject: Unit session-c10.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c10.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:16 control2 sudo[25669]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:16 control2 neutron-server[25651]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f73f2685790>": No such file or directory
+Sep 16 15:04:16 control2 sudo[25669]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:16 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:16 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:16 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:16 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:17 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:17 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:17 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:20 control2 sudo[25718]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:20 control2 systemd[1]: Started Session c11 of user root.
+-- Subject: Unit session-c11.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c11.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:20 control2 sudo[25718]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:21 control2 neutron-server[25690]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7faa210dd750>": No such file or directory
+Sep 16 15:04:21 control2 sudo[25718]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:21 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:21 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:21 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:21 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:21 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:21 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:21 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:26 control2 sudo[25758]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:26 control2 systemd[1]: Started Session c12 of user root.
+-- Subject: Unit session-c12.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c12.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:26 control2 sudo[25758]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:26 control2 neutron-server[25739]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f8f2fa4ac10>": No such file or directory
+Sep 16 15:04:26 control2 sudo[25758]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:26 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:26 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:26 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:26 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:27 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:27 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:27 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:31 control2 sudo[25798]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:31 control2 systemd[1]: Started Session c13 of user root.
+-- Subject: Unit session-c13.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c13.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:31 control2 sudo[25798]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:32 control2 neutron-server[25777]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7ff0c3cedc90>": No such file or directory
+Sep 16 15:04:32 control2 sudo[25798]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:32 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:32 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:32 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:32 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:32 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:32 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:32 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:37 control2 sudo[25837]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:37 control2 systemd[1]: Started Session c14 of user root.
+-- Subject: Unit session-c14.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c14.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:37 control2 sudo[25837]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:37 control2 neutron-server[25819]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f559dd15dd0>": No such file or directory
+Sep 16 15:04:37 control2 sudo[25837]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:37 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:37 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:37 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:37 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:37 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:37 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:37 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:42 control2 sudo[25879]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:42 control2 systemd[1]: Started Session c15 of user root.
+-- Subject: Unit session-c15.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c15.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:42 control2 sudo[25879]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:42 control2 neutron-server[25858]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f8d9f4d39d0>": No such file or directory
+Sep 16 15:04:42 control2 sudo[25879]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:42 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:42 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:42 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:42 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:43 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:43 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:43 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:47 control2 sudo[25918]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:47 control2 systemd[1]: Started Session c16 of user root.
+-- Subject: Unit session-c16.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c16.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:47 control2 sudo[25918]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:47 control2 neutron-server[25900]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fe6d03adbd0>": No such file or directory
+Sep 16 15:04:47 control2 sudo[25918]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:48 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:48 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:48 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:48 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:48 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:48 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:48 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:52 control2 sudo[25960]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:52 control2 systemd[1]: Started Session c17 of user root.
+-- Subject: Unit session-c17.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c17.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:52 control2 sudo[25960]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:53 control2 neutron-server[25940]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f8cba381bd0>": No such file or directory
+Sep 16 15:04:53 control2 sudo[25960]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:53 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:53 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:53 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:53 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:53 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:53 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:53 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:04:57 control2 sudo[26000]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:04:57 control2 systemd[1]: Started Session c18 of user root.
+-- Subject: Unit session-c18.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c18.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:04:57 control2 sudo[26000]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:04:58 control2 neutron-server[25981]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f4d93b75fd0>": No such file or directory
+Sep 16 15:04:58 control2 sudo[26000]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:04:58 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:04:58 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:04:58 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:04:58 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:04:58 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:04:58 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:04:58 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:03 control2 sudo[26067]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:03 control2 systemd[1]: Started Session c19 of user root.
+-- Subject: Unit session-c19.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c19.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:03 control2 sudo[26067]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:03 control2 neutron-server[26047]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f352c837790>": No such file or directory
+Sep 16 15:05:03 control2 sudo[26067]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:03 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:03 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:03 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:03 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:04 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:04 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:04 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:08 control2 sudo[26107]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:08 control2 systemd[1]: Started Session c20 of user root.
+-- Subject: Unit session-c20.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c20.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:08 control2 sudo[26107]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:08 control2 neutron-server[26088]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fe70fe12c10>": No such file or directory
+Sep 16 15:05:09 control2 sudo[26107]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:09 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:09 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:09 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:09 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:09 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:09 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:09 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:14 control2 sudo[26148]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:14 control2 systemd[1]: Started Session c21 of user root.
+-- Subject: Unit session-c21.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c21.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:14 control2 sudo[26148]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:14 control2 neutron-server[26128]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7ff0f43fded0>": No such file or directory
+Sep 16 15:05:14 control2 sudo[26148]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:14 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:14 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:14 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:14 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:14 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:14 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:14 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:19 control2 sudo[26187]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:19 control2 systemd[1]: Started Session c22 of user root.
+-- Subject: Unit session-c22.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c22.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:19 control2 sudo[26187]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:19 control2 neutron-server[26169]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fcf4ca74f50>": No such file or directory
+Sep 16 15:05:19 control2 sudo[26187]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:19 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:19 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:19 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:19 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:20 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:20 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:20 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:24 control2 sudo[26236]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:24 control2 systemd[1]: Started Session c23 of user root.
+-- Subject: Unit session-c23.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c23.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:24 control2 sudo[26236]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:24 control2 neutron-server[26207]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fbe828f2ed0>": No such file or directory
+Sep 16 15:05:25 control2 sudo[26236]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:25 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:25 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:25 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:25 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:25 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:25 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:25 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:29 control2 neutron-server[26257]: /usr/lib64/python2.7/site-packages/sqlalchemy/orm/persistence.py:1066: SAWarning: DELETE statement on table 'ml2_vlan_allocations' expected to delete 1 row(s); 0 were matched.  Please set confirm_deleted_rows=False within the mapper configuration to prevent this warning.
+Sep 16 15:05:29 control2 neutron-server[26257]: (table.description, expected, rows_matched)
+Sep 16 15:05:30 control2 sudo[26276]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:30 control2 systemd[1]: Started Session c24 of user root.
+-- Subject: Unit session-c24.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c24.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:30 control2 sudo[26276]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:30 control2 neutron-server[26257]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f7f25c6f610>": No such file or directory
+Sep 16 15:05:31 control2 sudo[26276]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:31 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:31 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:31 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:31 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:31 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:31 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:31 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:35 control2 neutron-server[26299]: /usr/lib64/python2.7/site-packages/sqlalchemy/orm/persistence.py:1066: SAWarning: DELETE statement on table 'ml2_vlan_allocations' expected to delete 1 row(s); 0 were matched.  Please set confirm_deleted_rows=False within the mapper configuration to prevent this warning.
+Sep 16 15:05:35 control2 neutron-server[26299]: (table.description, expected, rows_matched)
+Sep 16 15:05:36 control2 sudo[26318]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:36 control2 systemd[1]: Started Session c25 of user root.
+-- Subject: Unit session-c25.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c25.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:36 control2 sudo[26318]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:36 control2 neutron-server[26299]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f89c8e0fd90>": No such file or directory
+Sep 16 15:05:37 control2 sudo[26318]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:37 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:37 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:37 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:37 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:37 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:37 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:37 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:41 control2 sudo[26361]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:41 control2 systemd[1]: Started Session c26 of user root.
+-- Subject: Unit session-c26.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c26.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:41 control2 sudo[26361]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:42 control2 neutron-server[26341]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f96900446d0>": No such file or directory
+Sep 16 15:05:42 control2 sudo[26361]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:42 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:42 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:42 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:42 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:42 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:42 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:42 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:46 control2 neutron-server[26382]: /usr/lib64/python2.7/site-packages/sqlalchemy/orm/persistence.py:1066: SAWarning: DELETE statement on table 'ml2_vlan_allocations' expected to delete 1 row(s); 0 were matched.  Please set confirm_deleted_rows=False within the mapper configuration to prevent this warning.
+Sep 16 15:05:46 control2 neutron-server[26382]: (table.description, expected, rows_matched)
+Sep 16 15:05:47 control2 sudo[26401]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:47 control2 systemd[1]: Started Session c27 of user root.
+-- Subject: Unit session-c27.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c27.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:47 control2 sudo[26401]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:48 control2 neutron-server[26382]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f485947f4d0>": No such file or directory
+Sep 16 15:05:48 control2 sudo[26401]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:48 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:48 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:48 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:48 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:48 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:48 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:48 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:52 control2 sudo[26442]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:52 control2 systemd[1]: Started Session c28 of user root.
+-- Subject: Unit session-c28.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c28.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:52 control2 sudo[26442]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:53 control2 neutron-server[26422]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fb5e53926d0>": No such file or directory
+Sep 16 15:05:53 control2 sudo[26442]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:53 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:53 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:53 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:53 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:53 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:53 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:53 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:05:57 control2 neutron-server[26463]: /usr/lib64/python2.7/site-packages/sqlalchemy/orm/persistence.py:1066: SAWarning: DELETE statement on table 'ml2_vlan_allocations' expected to delete 1 row(s); 0 were matched.  Please set confirm_deleted_rows=False within the mapper configuration to prevent this warning.
+Sep 16 15:05:57 control2 neutron-server[26463]: (table.description, expected, rows_matched)
+Sep 16 15:05:58 control2 sudo[26507]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:05:58 control2 systemd[1]: Started Session c29 of user root.
+-- Subject: Unit session-c29.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c29.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:05:58 control2 sudo[26507]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:05:58 control2 neutron-server[26463]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f4dfbf7ff50>": No such file or directory
+Sep 16 15:05:58 control2 sudo[26507]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:05:59 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:05:59 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:05:59 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:05:59 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:05:59 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:05:59 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:05:59 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:06:03 control2 sudo[26550]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:06:03 control2 systemd[1]: Started Session c30 of user root.
+-- Subject: Unit session-c30.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c30.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:06:03 control2 sudo[26550]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:06:03 control2 neutron-server[26530]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f907200f710>": No such file or directory
+Sep 16 15:06:03 control2 sudo[26550]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:06:03 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:06:03 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:06:03 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:06:03 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:06:04 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:06:04 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:06:04 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:06:07 control2 sudo[26589]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:06:07 control2 systemd[1]: Started Session c31 of user root.
+-- Subject: Unit session-c31.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c31.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:06:07 control2 sudo[26589]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:06:08 control2 neutron-server[26571]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fcc60c88810>": No such file or directory
+Sep 16 15:06:08 control2 sudo[26589]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:06:08 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:06:08 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:06:08 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:06:08 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:06:08 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:06:08 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:06:08 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:06:12 control2 neutron-server[26610]: /usr/lib64/python2.7/site-packages/sqlalchemy/orm/persistence.py:1066: SAWarning: DELETE statement on table 'ml2_vlan_allocations' expected to delete 1 row(s); 0 were matched.  Please set confirm_deleted_rows=False within the mapper configuration to prevent this warning.
+Sep 16 15:06:12 control2 neutron-server[26610]: (table.description, expected, rows_matched)
+Sep 16 15:06:13 control2 sudo[26633]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:06:13 control2 systemd[1]: Started Session c32 of user root.
+-- Subject: Unit session-c32.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c32.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:06:13 control2 sudo[26633]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:06:14 control2 neutron-server[26610]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fc2d7c70d10>": No such file or directory
+Sep 16 15:06:14 control2 sudo[26633]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:06:14 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:06:14 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:06:14 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:06:14 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:06:14 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:06:14 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:06:14 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:06:18 control2 sudo[26672]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:06:18 control2 systemd[1]: Started Session c33 of user root.
+-- Subject: Unit session-c33.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c33.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:06:18 control2 sudo[26672]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:06:18 control2 neutron-server[26654]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7fd6bbbf7750>": No such file or directory
+Sep 16 15:06:18 control2 sudo[26672]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:06:19 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:06:19 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:06:19 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:06:19 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:06:19 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:06:19 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:06:19 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:06:23 control2 sudo[26721]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:06:23 control2 systemd[1]: Started Session c34 of user root.
+-- Subject: Unit session-c34.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c34.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:06:23 control2 sudo[26721]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:06:24 control2 neutron-server[26693]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f3a8c267e90>": No such file or directory
+Sep 16 15:06:24 control2 sudo[26721]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:06:24 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:06:24 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:06:24 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:06:24 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:06:24 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:06:24 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:06:24 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:06:29 control2 sudo[26761]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:06:29 control2 systemd[1]: Started Session c35 of user root.
+-- Subject: Unit session-c35.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c35.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:06:29 control2 sudo[26761]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:06:29 control2 neutron-server[26742]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f78dfba1d90>": No such file or directory
+Sep 16 15:06:29 control2 sudo[26761]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:06:29 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:06:29 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:06:29 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:06:29 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:06:30 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:06:30 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:06:30 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
+Sep 16 15:06:34 control2 sudo[26802]:  neutron : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Sep 16 15:06:34 control2 systemd[1]: Started Session c36 of user root.
+-- Subject: Unit session-c36.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c36.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Sep 16 15:06:34 control2 sudo[26802]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 16 15:06:35 control2 neutron-server[26782]: ERROR: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "<neutron_fwaas.services.firewall.fwaas_plugin_v2.FirewallPluginV2 object at 0x7f9f6202bdd0>": No such file or directory
+Sep 16 15:06:35 control2 sudo[26802]: pam_unix(sudo:session): session closed for user root
+Sep 16 15:06:35 control2 systemd[1]: neutron-server.service: main process exited, code=exited, status=1/FAILURE
+Sep 16 15:06:35 control2 systemd[1]: Failed to start OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has failed.
+-- 
+-- The result is failed.
+Sep 16 15:06:35 control2 systemd[1]: Unit neutron-server.service entered failed state.
+Sep 16 15:06:35 control2 systemd[1]: neutron-server.service failed.
+Sep 16 15:06:35 control2 systemd[1]: neutron-server.service holdoff time over, scheduling restart.
+Sep 16 15:06:35 control2 systemd[1]: Stopped OpenStack Neutron Server.
+-- Subject: Unit neutron-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has finished shutting down.
+Sep 16 15:06:35 control2 systemd[1]: Starting OpenStack Neutron Server...
+-- Subject: Unit neutron-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit neutron-server.service has begun starting up.
