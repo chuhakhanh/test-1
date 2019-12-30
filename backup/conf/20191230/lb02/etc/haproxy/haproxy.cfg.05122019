@@ -1,0 +1,141 @@
+global
+        chroot /var/lib/haproxy
+        daemon
+        group  haproxy
+        maxconn  40000
+        pidfile  /var/run/haproxy.pid
+        stats socket /var/lib/haproxy/stats
+        user  haproxy
+
+defaults
+        log  global
+        mode  tcp
+        maxconn  40000
+        option  redispatch
+        retries  3
+        timeout  http-request 10s
+        timeout  queue 2m
+        timeout  connect 10s
+        timeout  client 2m
+        timeout  server 2m
+        timeout  check 10s
+
+listen stats
+    bind :8080
+    mode http
+    stats enable
+    stats uri /stats
+    stats realm HAProxy\ Statistics
+
+
+
+listen galera
+    bind 10.38.22.30:3306
+    balance source
+    mode tcp
+    option tcpka
+    option tcplog
+    option clitcpka
+    option srvtcpka
+    server controller01 10.38.22.31:3306 check inter 5s fastinter 2s rise 3 fall 3
+    server controller02 10.38.22.32:3306 check inter 5s fastinter 2s rise 3 fall 3 backup
+    server controller03 10.38.22.33:3306 check inter 5s fastinter 2s rise 3 fall 3 backup
+
+
+
+listen rabbitmq
+    bind 10.38.22.30:5672
+    balance source
+    mode tcp
+    option tcpka
+    option tcplog
+    option clitcpka
+    option srvtcpka
+    server controller01 10.38.22.31:5672 check inter 5s fastinter 2s rise 3 fall 3
+    server controller02 10.38.22.32:5672 check inter 5s fastinter 2s rise 3 fall 3 backup
+    server controller03 10.38.22.33:5672 check inter 5s fastinter 2s rise 3 fall 3 backup
+
+
+
+listen horizon
+    bind 10.38.22.30:80
+    mode http
+    cookie SERVERID insert indirect nocache
+    option tcplog
+    timeout client 180s
+    server controller01 10.38.22.31:80 cookie controller01 check inter 1s
+    server controller02 10.38.22.32:80 cookie controller02 check inter 1s backup
+    server controller03 10.38.22.33:80 cookie controller02 check inter 1s backup
+
+
+listen keystone-public
+    bind 10.38.22.30:5000
+    mode tcp
+    option tcplog
+    server controller01 10.38.22.31:5000 check inter 2000 rise 2 fall 3 
+    server controller02 10.38.22.32:5000 check inter 2000 rise 2 fall 3 backup
+    server controller03 10.38.22.33:5000 check inter 2000 rise 2 fall 3 backup
+
+
+listen glance_api_cluster
+    bind 10.38.22.30:9292
+    balance  source
+    option  tcpka
+    option  httpchk
+    option  tcplog
+    server controller01 10.38.22.31:9292 check inter 2000 rise 2 fall 3
+    server controller02 10.38.22.32:9292 check inter 2000 rise 2 fall 3 backup
+    server controller03 10.38.22.33:9292 check inter 2000 rise 2 fall 3 backup
+
+listen nova_compute_api_cluster
+    bind 10.38.22.30:8774
+    balance  source
+    option  tcpka
+    option  httpchk
+    option  tcplog
+    server controller01 10.38.22.31:8774 check inter 2000 rise 2 fall 3
+    server controller02 10.38.22.32:8774 check inter 2000 rise 2 fall 3 backup
+    server controller03 10.38.22.33:8774 check inter 2000 rise 2 fall 3 backup
+
+
+listen nova_placement_cluster
+    bind 10.38.22.30:8778
+    balance  source
+    option  tcpka
+    option  tcplog
+    server controller01 10.38.22.31:8778 check inter 2000 rise 2 fall 3
+    server controller02 10.38.22.32:8778 check inter 2000 rise 2 fall 3 backup
+    server controller03 10.38.22.33:8778 check inter 2000 rise 2 fall 3 backup
+
+
+
+listen nova_metadata_api_cluster
+    bind 10.38.22.30:8775
+    balance  source
+    option  tcpka
+    option  tcplog
+    server controller01 10.38.22.31:8775 check inter 2000 rise 2 fall 3
+    server controller02 10.38.22.32:8775 check inter 2000 rise 2 fall 3 backup
+    server controller03 10.38.22.33:8775 check inter 2000 rise 2 fall 3 backup
+
+
+listen neutron_api_cluster
+    bind 10.38.22.30:9696
+    balance  source
+    option  tcpka
+    option  httpchk
+    option  tcplog
+    server controller01 10.38.22.31:9696 check inter 2000 rise 2 fall 3
+    server controller02 10.38.22.32:9696 check inter 2000 rise 2 fall 3 backup
+    server controller03 10.38.22.33:9696 check inter 2000 rise 2 fall 3 backup
+
+
+listen neutron_cinder_cluster
+    bind 10.38.22.30:8776
+    balance  source
+    option  tcpka
+    option  httpchk
+    option  tcplog
+    server controller01 10.38.22.31:8776 check inter 2000 rise 2 fall 3
+    server controller02 10.38.22.32:8776 check inter 2000 rise 2 fall 3 backup
+    server controller03 10.38.22.33:8776 check inter 2000 rise 2 fall 3 backup
