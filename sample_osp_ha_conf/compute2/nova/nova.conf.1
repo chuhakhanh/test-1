@@ -1,0 +1,113 @@
+[DEFAULT]
+my_ip = 10.1.17.17
+state_path = /var/lib/nova
+enabled_apis = osapi_compute,metadata
+log_dir = /var/log/nova
+# RabbitMQ connection info
+transport_url = rabbit://openstack:password@vip
+use_neutron = True
+linuxnet_interface_driver = nova.network.linux_net.LinuxOVSInterfaceDriver
+firewall_driver = nova.virt.firewall.NoopFirewallDriver
+vif_plugging_is_fatal = True
+vif_plugging_timeout = 300
+use_syslog=True
+syslog_log_facility=LOG_LOCAL0
+[api]
+auth_strategy = keystone
+[api_database]
+connection = mysql+pymysql://nova:password@vip/nova_api
+[barbican]
+[cache]
+[cells]
+[cinder]
+[compute]
+[conductor]
+[console]
+[consoleauth]
+[cors]
+[database]
+connection = mysql+pymysql://nova:password@vip/nova
+[devices]
+[ephemeral_storage_encryption]
+[filter_scheduler]
+[glance]
+api_servers = http://vip:9292
+[guestfs]
+[healthcheck]
+[hyperv]
+[ironic]
+[key_manager]
+api_class = castellan.key_manager.barbican_key_manager.BarbicanKeyManager
+[keystone]
+[keystone_authtoken]
+www_authenticate_uri = http://vip:5000
+auth_url = http://vip:5000
+memcached_servers = control1:11211,control2:11211,control3:11211
+auth_type = password
+project_domain_name = default
+user_domain_name = default
+project_name = service
+username = nova
+password = servicepassword
+[libvirt]
+inject_password=true
+[matchmaker_redis]
+[metrics]
+[mks]
+[neutron]
+auth_url = http://vip:5000
+auth_type = password
+project_domain_name = default
+user_domain_name = default
+region_name = RegionOne
+project_name = service
+username = nova
+password = servicepassword
+service_metadata_proxy = True
+metadata_proxy_shared_secret = metadata_secret
+[notifications]
+[osapi_v21]
+[oslo_concurrency]
+[oslo_messaging_amqp]
+[oslo_messaging_kafka]
+[oslo_messaging_notifications]
+[oslo_messaging_rabbit]
+[oslo_messaging_zmq]
+[oslo_middleware]
+[oslo_policy]
+[pci]
+[placement]
+auth_url = http://vip:5000
+os_region_name = RegionOne
+auth_type = password
+project_domain_name = default
+user_domain_name = default
+project_name = service
+username = placement
+password = servicepassword
+[placement_database]
+connection = mysql+pymysql://nova:password@vip/nova_placement
+[powervm]
+[profiler]
+[quota]
+[rdp]
+[remote_debug]
+[scheduler]
+[serial_console]
+[service_user]
+[spice]
+[upgrade_levels]
+[vault]
+[vendordata_dynamic_auth]
+[vmware]
+[vnc]
+enabled = True
+server_listen = 0.0.0.0
+server_proxyclient_address = 10.1.17.17
+novncproxy_base_url = http://vip:6080/vnc_auto.html 
+[workarounds]
+[wsgi]
+api_paste_config = /etc/nova/api-paste.ini
+[xenserver]
+[xvp]
+[zvm]

@@ -1,0 +1,10 @@
+controller01
+controller02
+controller03
+lb01
+lb02
+ceph01
+ceph02
+ceph03
+compute01
+compute02

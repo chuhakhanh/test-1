@@ -1,0 +1,96 @@
+[server]
+
+# this is only for the mysqld standalone daemon
+[mysqld]
+
+bind-address=10.38.22.32
+
+# GENERAL #
+port                            = 3306
+basedir                         = /usr
+datadir                         = /var/lib/mysql
+tmpdir                          = /tmp
+server-id                       = 1
+gtid-domain-id                  = 1
+character-set-server            = utf8
+collation-server                = utf8_general_ci
+default-storage-engine          = innodb
+log-bin                         = binlog
+log_slave_updates               = 1
+binlog-format                   = ROW
+expire-logs-days                = 2
+skip-name-resolve
+lower_case_table_names          = 1
+max_connections                 = 10000
+performance_schema              = ON
+replicate-wild-do-table         = grafana.%
+replicate-wild-do-table         = rundeck.%
+slave-skip-errors               = 1062
+
+# THREADS #
+#thread_handling                = pool-of-threads
+thread_pool_size                = 16
+#thread-cache-size              = 250
+thread_cache_size               = 160
+#thread_concurrency              = 32
+
+# INNODB #
+innodb_buffer_pool_instances    = 2
+innodb_buffer_pool_size         = 2512M
+innodb_log_file_size            = 256M
+innodb_log_files_in_group       = 2
+innodb_log_buffer_size          = 8M
+innodb_flush_method             = O_DIRECT
+innodb_flush_log_at_trx_commit  = 1
+innodb_lock_wait_timeout        = 5
+innodb_file_per_table           = ON
+
+# SAFETY #
+max-allowed-packet              = 64M
+max-connect-errors              = 1000000
+
+# CACHES AND LIMITS #
+tmp_table_size                  = 512M
+max_heap_table_size             = 512M
+query_cache_limit               = 96M
+query_cache_size                = 256M
+query_cache_type                = 1
+table_open_cache                = 400
+table-definition-cache          = 4096
+
+sort_buffer_size                = 32M
+join_buffer_size                = 256M
+read_buffer_size                = 32M
+myisam_sort_buffer_size         = 32M
+interactive_timeout             = 28800
+wait_timeout                    = 28800
+connect_timeout                 = 1800
+
+
+#Slow log
+slow_query_log                  = 1
+slow_query_log_file             = /var/log/mysql/slow.log
+log-error                       = /var/log/mysql/error.log
+log_warnings                    = 1
+long_query_time                 = 10
+
+[galera]
+wsrep_on=ON
+wsrep_provider=/usr/lib64/galera-4/libgalera_smm.so
+#add your node ips here
+wsrep_cluster_address="gcomm://192.168.100.31,192.168.100.32,192.168.100.33"
+binlog_format=row
+default_storage_engine=InnoDB
+innodb_autoinc_lock_mode=2
+#Cluster name
+wsrep_cluster_name="clu_db_vsp"
+# Allow server to accept connections on all interfaces.
+bind-address=10.38.22.32
+# this server ip, change for each server
+wsrep_node_address="192.168.100.32"
+# this server name, change for each server
+wsrep_node_name="controller02.internal"
+wsrep_sst_method=rsync
+[embedded]
+[mariadb]
+[mariadb-10.4]

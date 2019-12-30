@@ -1,0 +1,10 @@
+haproxy
+keystone
+openstack-dashboard
+httpd/conf.d
+nova
+placement
+glance
+neutron
+ceph
+my.cnf.d

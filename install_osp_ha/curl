@@ -1,0 +1,293 @@
+MobiFone@2019
+h@yl4ch1nhb4n
+duy.ntp@svtech.com.vn 
+Svtech@2019
+
+Có nhiều cách lấy password sau khi tạo, có thể vào console và change password hoặc vào 
+/etc/openstack_dashboard/local_settings.py 
+ set OPENSTACK_ENABLE_PASSWORD_RETRIEVE = True để các lần sau lấy pass thuận tiện hơn 
+ 
+
+
+
+curl -g -i -X GET http://vip:5000/v3 -H "Accept: application/json" -H "User-Agent: openstacksdk/0.17.2 keystoneauth1/3.10.0 python-requests/2.19.1 CPython/2.7.5" | python -m json.tool 
+
+curl -g -i -X GET http://vip:5000/v3 -H "Accept: application/json" -H "User-Agent: openstacksdk/0.17.2 keystoneauth1/3.10.0 python-requests/2.19.1 CPython/2.7.5"
+
+curl -i \
+  -H "Content-Type: application/json" \
+  -d '
+{ "auth": {
+    "identity": {
+      "methods": ["password"],
+      "password": {
+        "user": {
+          "name": "admin",
+          "domain": { "id": "default" },
+          "password": "adminpassword"
+        }
+      }
+    }
+  }
+}' \
+  "http://vip:5000/v3/auth/tokens" ; echo
+  
+HTTP/1.1 201 Created
+Date: Sat, 06 Jul 2019 02:35:18 GMT
+Server: Apache/2.4.6 (CentOS) mod_wsgi/3.4 Python/2.7.5
+X-Subject-Token: gAAAAABdIAjnA78f1-j0VpUK200xazGcdTnLnMv7ULVhHqwaxuBZ36JBtDom8v7iBXh3YcqzDTIoxCDkoQssjQTPfwaPg0B3dT789tDukSROVXDaiBNx7ZSJ-mOpfHHtHfHZYvMP-E9TAbViuecZSPG1bkVupCmglA
+Vary: X-Auth-Token
+x-openstack-request-id: req-dd7b817c-2575-4c4a-b04a-9915536f179c
+Content-Length: 312
+Content-Type: application/json
+
+{"token": {"issued_at": "2019-07-06T02:35:19.000000Z", "audit_ids": ["p4JfROJVQVa8ntN_ImPYpw"], "methods": ["password"], "expires_at": "2019-07-06T03:35:19.000000Z", "user": {"password_expires_at": null, "domain": {"id": "default", "name": "Default"}, "id": "3defc268c8bc4ae6805e35fc24bd8742", "name": "admin"}}}
+
+
+curl -i \
+  -H "Content-Type: application/json" \
+  -d '
+{ "auth": {
+    "identity": {
+      "methods": ["token"],
+      "token": {
+        "id": "'$OS_TOKEN'"
+      }
+    }
+  }
+}' \
+  "http://vip:5000/v3/auth/tokens" ; echo
+ 
+
+curl -s \
+  -H "X-Auth-Token: $OS_TOKEN" \
+  "http://vip:5000/v3/domains" | python -m json.tool
+  
+
+OS_TOKEN=$(openstack token issue -f value -c id)
+curl -s -H "X-Auth-Token: $OS_TOKEN" http://vip:8778/ |  python -m json.tool 
+curl http://vip:5672 |  python -m json.tool 
+
+====================
+
+
+OS_TOKEN=$(openstack token issue -f value -c id)
+curl -s \
+   -H "X-Auth-Token: $OS_TOKEN" \
+   "http://vip:5000/v3/domains" | python -m json.tool
+{
+    "domains": [
+        {
+            "description": "The default domain",
+            "enabled": true,
+            "id": "default",
+            "links": {
+                "self": "http://vip:5000/v3/domains/default"
+            },
+            "name": "Default",
+            "tags": []
+        }
+    ],
+    "links": {
+        "next": null,
+        "previous": null,
+        "self": "http://vip:5000/v3/domains"
+    }
+}
+[root@control1 ~(keystone)]# 
+[root@control1 ~(keystone)]# echo $OS_TOKEN
+gAAAAABdIAqehH033ZYtrnKOBz5InECNNDz7SEge2uPPtaKg-BVKd_fvZtUm-UbuF-qTHY89-uUEAdfX7xOa7QZCcilM1gLZHtj1tTn7TH5x01-GNfc9uOiPtwCHjR1KjP7YyPuAw29tNBcmOaz7_a-vM0KuB0fRRy-kcfbDyqwwSUeWbHNPvac
+
+
+
+================
+
+
+curl -i \
+  -H "Content-Type: application/json" \
+  -d '
+{ "auth": {
+    "identity": {
+      "methods": ["password"],
+      "password": {
+        "user": {
+          "name": "admin",
+          "domain": { "id": "default" },
+          "password": "adminpassword"
+        }
+      }
+    }
+  }
+}' \
+  "http://vip:5000/v3/auth/tokens" ; echo
+  
+HTTP/1.1 201 Created
+Date: Sat, 06 Jul 2019 02:49:48 GMT
+Server: Apache/2.4.6 (CentOS) mod_wsgi/3.4 Python/2.7.5
+X-Subject-Token: gAAAAABdIAxNaLgYwBnCLotqAwT7Vnhw_DVPecHSkMvUVbe_V9-qRLwMoaJnDXjDBEdmZOzVwM4EGfFwM9hj-CCIoGk6LXy-PClFj6_m_GtaM_C5M4Jf9-nwdtfWLNmvihOrn232j57HoXUpdYenwwaYZp-O1nIRwA
+Vary: X-Auth-Token
+x-openstack-request-id: req-7d1375e2-dc4a-4b7c-be39-600a3e8349d2
+Content-Length: 312
+Content-Type: application/json
+
+{"token": {"issued_at": "2019-07-06T02:49:49.000000Z", "audit_ids": ["qzIUx6XwSfG7s5-P2xtVDw"], "methods": ["password"], "expires_at": "2019-07-06T03:49:49.000000Z", "user": {"password_expires_at": null, "domain": {"id": "default", "name": "Default"}, "id": "3defc268c8bc4ae6805e35fc24bd8742", "name": "admin"}}} 
+
+
+OS_TOKEN=gAAAAABdIAxNaLgYwBnCLotqAwT7Vnhw_DVPecHSkMvUVbe_V9-qRLwMoaJnDXjDBEdmZOzVwM4EGfFwM9hj-CCIoGk6LXy-PClFj6_m_GtaM_C5M4Jf9-nwdtfWLNmvihOrn232j57HoXUpdYenwwaYZp-O1nIRwA
+OS_TOKEN=$(openstack token issue -f value -c id)
+
+curl -s \
+ -H "X-Auth-Token: $OS_TOKEN" \
+ "http://vip:5000/v3/projects" | python -mjson.tool
+ 
+ 
+curl -s \
+ -H "X-Auth-Token: $OS_TOKEN" \
+ "http://vip:5000/v3/users" | python -mjson.tool
+
+
+Loi:
+
+Process: 1274 ExecStop=/bin/kill -WINCH ${MAINPID} (code=exited, status=0/SUCCESS)
+  Process: 10240 ExecStartPre=/usr/bin/python /usr/share/openstack-dashboard/manage.py compress --force -v0 (code=exited, status=0/SUCCESS)
+  Process: 10217 ExecStartPre=/usr/bin/python /usr/share/openstack-dashboard/manage.py collectstatic --noinput --clear -v0 (code=exited, status=0/SUCCESS)
+ Main PID: 10277 (httpd)
+   Status: "Total requests: 4087; Current requests/sec: 2; Current traffic: 614 B/sec"
+   
+
+[root@control2 ~(keystone)]#  systemctl status httpd
+â— httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+  Drop-In: /usr/lib/systemd/system/httpd.service.d
+           â””â”€openstack-dashboard.conf
+   Active: active (running) since Fri 2019-06-28 15:37:01 +07; 1 weeks 0 days ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+  Process: 22491 ExecReload=/usr/sbin/httpd $OPTIONS -k graceful (code=exited, status=0/SUCCESS)
+ Main PID: 15522 (httpd)
+   Status: "Total requests: 0; Current requests/sec: 0; Current traffic:   0 B/sec"
+   
+   MlEDWziTadlwcbZvs9sM l
+
+
+curl -d '{"auth":{"passwordCredentials":{"username": "admin","password": "pass"},"tenantName": "tenant1"}}' -H "Content-Type: application/json" http://10.10.1.10:5000/v2.0/tokens   
+curl -i http://10.10.1.11:9696/v2.0/ports/ccbd0ed6-3dfd-4431-af29-4a2d921abb38.json -X PUT -H "X-Auth-Token: 4dedb7b7ffe740c181d35a930809b22b" -H "Content-Type: application/json" -H "Accept: application/json" -H "User-Agent: python-neutronclient" -d '{"port": {"allowed_address_pairs": []}}'
+
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python get-pip.py
+pip -V   
+
+fa:16:3e:82:ba:86
+fa:16:3e:82:ba:86 
+fa:16:3e:82:ba:86
+   
+neutron_driver_fwaasv2: iptables_v2
+neutron_fwaasv2_service_provider: FIREWALL_V2:fwaas_db:neutron_fwaas.services.firewall.service_drivers.agents.agents.FirewallAgentDriver:default   
+   
+enabled = true
+driver = {{ neutron_driver_fwaasv2 }}
+agent_version = v2
+firewall_l2_driver = noop
+
+[fwaas]
+agent_version = v2
+driver = neutron_fwaas.services.firewall.drivers.linux.iptables_fwaas_v2.IptablesFwaasDriver
+enabled = True
+   
+[service_providers]
+service_provider = FIREWALL_V2:fwaas_db:neutron_fwaas.services.firewall.service_drivers.agents.agents.FirewallAgentDriver:default
+
+[fwaas]
+agent_version = v2
+driver = neutron_fwaas.services.firewall.drivers.linux.iptables_fwaas_v2.IptablesFwaasDriver
+enabled = True
+
++----------------------------------+-----------+--------------+--------------+---------+-----------+------------------------------------+
+| ID                               | Region    | Service Name | Service Type | Enabled | Interface | URL                                |
++----------------------------------+-----------+--------------+--------------+---------+-----------+------------------------------------+
+| 00099325927e423eab56d1da248f6c15 | RegionOne | glance       | image        | True    | admin     | http://vip:9292                    |
+| 0a2a5147aec740d383596fa5fdb63db4 | RegionOne | glance       | image        | True    | internal  | http://vip:9292                    |
+| 0df2c5ea91614806ba2d4c3b32f754bb | RegionOne | keystone     | identity     | True    | internal  | http://vip:5000/v3/                |
+| 116726bf416b4868b21232d3e0ff5f27 | RegionOne | nova         | compute      | True    | admin     | http://vip:8774/v2.1/%(tenant_id)s |
+| 1d0f7d57cb4041abaf63f5206d0db491 | RegionOne | placement    | placement    | True    | internal  | http://vip:8778                    |
+| 209dde5700664400ba5094c0262eee92 | RegionOne | keystone     | identity     | True    | public    | http://vip:5000/v3/                |
+| 2c7b014ccc454eabb630888b56e1ce02 | RegionOne | cinderv3     | volumev3     | True    | admin     | http://vip:8776/v3/%(tenant_id)s   |
+| 5d895295a4c746a28f08b35dfe6717f5 | RegionOne | nova         | compute      | True    | public    | http://vip:8774/v2.1/%(tenant_id)s |
+| 6b371a4dd4814c2cbc8b57a5b508bded | RegionOne | nova         | compute      | True    | internal  | http://vip:8774/v2.1/%(tenant_id)s |
+| 71e48f78af194b12a9fd40f2ce29fb83 | RegionOne | cinderv3     | volumev3     | True    | public    | http://vip:8776/v3/%(tenant_id)s   |
+| 879b0761b7c640fb8c8e7a8765403483 | RegionOne | keystone     | identity     | True    | admin     | http://vip:5000/v3/                |
+| 9513289ae67e46969f5147f6be907006 | RegionOne | placement    | placement    | True    | public    | http://vip:8778                    |
+| 967841581aa844fe84deb8c40e630989 | RegionOne | neutron      | network      | True    | admin     | http://vip:9696                    |
+| b577b2dfa5224d1d8ddd68ab1ff60c63 | RegionOne | neutron      | network      | True    | internal  | http://vip:9696                    |
+| d573fa0743204341a2d2cb551bd45edc | RegionOne | glance       | image        | True    | public    | http://vip:9292                    |
+| df4710d92266463db03d031b0f6fd5de | RegionOne | cinderv3     | volumev3     | True    | internal  | http://vip:8776/v3/%(tenant_id)s   |
+| fe989cbf06d54faf8129ed1d601544ec | RegionOne | placement    | placement    | True    | admin     | http://vip:8778                    |
+| ffde0dc5052a46a8b4a6645019c7258c | RegionOne | neutron      | network      | True    | public    | http://vip:9696                    |
++----------------------------------+-----------+--------------+--------------+---------+-----------+------------------------------------+
+[root@control1 ~(keystone)]# openstack project list
++----------------------------------+---------+
+| ID                               | Name    |
++----------------------------------+---------+
+| f9e2fdffdca54bf1a4e554de73781ab6 | admin   |
+| fbd1a24058684494a1ecfa8774abeb60 | service |
++----------------------------------+---------+
+OS_TOKEN=$(openstack token issue -f value -c id)
+
+curl -s -H "X-Auth-Token: $OS_TOKEN" "http://vip:5000/v3" | python -m json.tool         
+{
+    "version": {
+        "id": "v3.11",
+        "links": [
+            {
+                "href": "http://vip:5000/v3/",
+                "rel": "self"
+            }
+        ],
+        "media-types": [
+            {
+                "base": "application/json",
+                "type": "application/vnd.openstack.identity-v3+json"
+            }
+        ],
+        "status": "stable",
+        "updated": "2018-10-15T00:00:00Z"
+    }
+}
+curl -s -H "X-Auth-Token: $OS_TOKEN" "http://vip:5000/v3"
+curl -s -H "X-Auth-Token: $OS_TOKEN" "http://vip:8774/v2.1/f9e2fdffdca54bf1a4e554de73781ab6/flavors/detail"| python -m json.tool         
+
+
+
+curl -s -H "X-Auth-Token: gAAAAABdcHAupI2wg2RYSlVxVs8Ly-U-nQNHwS87sgb-i-Qwy6Qn6SQv4YgEq2jY4-whxDpM0Go8Rtm7u2hB12Rbyna5bdOzsBtT17HQefcqwLczz5pDtYTsLAJkTHpFYT_FCeCumERuacuWe8kwj9HaweUcqm1cVgCar2rw2a5IceUkXZyTpaI" "http://vip:5000/v3" | python -m json.tool     
+curl -s "http://vip:5000/v3" | python -m json.tool         
+
+OS_TOKEN=$(openstack token issue -f value -c id)
+curl -s -H "X-Auth-Token: $OS_TOKEN" "http://vip:5000/v3/projects" | python -m json.tool    
+										
+curl -g -i -X GET http://vip:8774/v2.1/f9e2fdffdca54bf1a4e554de73781ab6/flavors/detail?is_public=None -H "Accept: application/json" -H "User-Agent: python-novaclient" -H "X-Auth-Token: $OS_TOKEN" "http://vip:8774/v2.1/f9e2fdffdca54bf1a4e554de73781ab6/flavors/detail?is_public=None" |  python -m json.tool  
+
+
+dnsmasq --no-hosts --no-resolv 
+--pid-file=/var/lib/neutron/dhcp/4af496b7-dd33-418d-b9ec-e2b7341dd0d9/pid 
+--dhcp-hostsfile=/var/lib/neutron/dhcp/4af496b7-dd33-418d-b9ec-e2b7341dd0d9/host 
+--addn-hosts=/var/lib/neutron/dhcp/4af496b7-dd33-418d-b9ec-e2b7341dd0d9/addn_hosts 
+--dhcp-optsfile=/var/lib/neutron/dhcp/4af496b7-dd33-418d-b9ec-e2b7341dd0d9/opts 
+--dhcp-leasefile=/var/lib/neutron/dhcp/4af496b7-dd33-418d-b9ec-e2b7341dd0d9/leases 
+--dhcp-match=set:ipxe,175 --local-service --bind-interfaces 
+--dhcp-range=set:tag0,192.168.126.0,static,255.255.255.0,86400s 
+--dhcp-option-force=option:mtu,1500 --dhcp-lease-max=256 
+--conf-file= --domain=openstacklocal
+
+curl -vv -d '{"auth":{"passwordCredentials":{"username": "admin", "password": "admin123"}}}' -H "Content-type: application/json" http://vip:5000/v3/tokens
+
+
+lvreduce -L -65G /dev/rhel_sim/root 
+lvcreate -n opt -L 64G rhel_sim
+blkid 
+mkfs.xfs /dev/mapper/rhel_sim-opt 
+blkid 
+vi /etc/fstab 
+
+the exclusive-lock and dependent features
+are disabled on the image. When creating a new image, you can use the
+"--image-shared" optional handle this for you.
